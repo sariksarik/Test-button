@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    text-decoration: none;
+  }
+  
+  body {
+    background: #ffffff;
+  }
+  h1{
+    position: absolute;
+    top: 35%;
+    left: 38.5%;
+    font-size: 2.5rem;
+    font-family: monospace;
+    color: #000000;
+    cursor: pointer;
+  }
+  button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 4rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+  }
+  .Yes {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    height: 4rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 17px;
+  }
+
+ul{
+  height: 100vh;
+  width: 100vw;
+  background: #202020;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  font-size: 90px;
+  
+}
+  
+  
